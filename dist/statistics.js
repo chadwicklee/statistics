@@ -53,8 +53,7 @@
                             break;
                         case 'RegExp':
                             addlistenter(abel.obj, "keyup", function(){
-                                var reg = new RegExp(obj.reg||"handsome");
-                                if(this.value.match(reg)){
+                                if(this.value.match(obj.reg)){
                                     obj.callback.apply(this, null);
                                 }
                             });
