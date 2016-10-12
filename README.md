@@ -1,5 +1,7 @@
 # statistics
 
+[使用示例](http://orionwei.github.io/homework/statistics/docs/demo.html)
+
 1. 获取 statistics
 
   下载statistics文件
